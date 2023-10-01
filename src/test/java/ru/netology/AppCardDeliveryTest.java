@@ -12,9 +12,9 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class AppCardDeliveryTest {
 
-        public String generateDate( int days) {
-            return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
-        }
+    public String generateDate(int days) {
+        return LocalDate.now().plusDays(days).format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
+    }
 
     @Test
     void correctDataTest() {
